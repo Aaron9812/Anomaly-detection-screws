@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 
 submission2/screw_data/
+submission2/transformed_images/
+submission2/transformed_images
