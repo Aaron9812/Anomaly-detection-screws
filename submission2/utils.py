@@ -11,6 +11,10 @@ from torchvision import datasets, transforms
 from torchvision.datasets import DatasetFolder, ImageFolder
 from torchvision.transforms import ToTensor, Resize, Grayscale, Normalize, RandomHorizontalFlip, RandomVerticalFlip, RandomRotation, ColorJitter
 
+import plotly.offline as pyo
+# Set notebook mode to work in
+pyo.init_notebook_mode()
+
 
 def display_image_grid(image_paths):
     num_images = len(image_paths)
