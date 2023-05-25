@@ -1,0 +1,152 @@
+[
+    {
+        "name": "Dropout v8 bs16_lr0.01",
+        "precision_score": 0.5,
+        "recall_score": 0.01680672268907563,
+        "f1_score": 0.03252032520325203
+    },
+    {
+        "name": "Dropout v8 bs16_lr0.001",
+        "precision_score": 0.7272727272727273,
+        "recall_score": 0.06722689075630252,
+        "f1_score": 0.12307692307692307
+    },
+    {
+        "name": "Dropout v8 bs16_lr0.0005",
+        "precision_score": 0.96875,
+        "recall_score": 0.7815126050420168,
+        "f1_score": 0.8651162790697675
+    },
+    {
+        "name": "Dropout v8 bs16_lr0.0001",
+        "precision_score": 0.5,
+        "recall_score": 0.01680672268907563,
+        "f1_score": 0.03252032520325203
+    },
+    {
+        "name": "Dropout v8 bs16_lr5e-05",
+        "precision_score": 0.8666666666666667,
+        "recall_score": 0.2184873949579832,
+        "f1_score": 0.34899328859060397
+    },
+    {
+        "name": "Dropout v8 bs24_lr0.01",
+        "precision_score": 0.25,
+        "recall_score": 0.008403361344537815,
+        "f1_score": 0.016260162601626015
+    },
+    {
+        "name": "Dropout v8 bs24_lr0.001",
+        "precision_score": 0.90625,
+        "recall_score": 0.24369747899159663,
+        "f1_score": 0.3841059602649006
+    },
+    {
+        "name": "Dropout v8 bs24_lr0.0005",
+        "precision_score": 0.8695652173913043,
+        "recall_score": 0.16806722689075632,
+        "f1_score": 0.2816901408450705
+    },
+    {
+        "name": "Dropout v8 bs24_lr0.0001",
+        "precision_score": 0.7142857142857143,
+        "recall_score": 0.04201680672268908,
+        "f1_score": 0.07936507936507937
+    },
+    {
+        "name": "Dropout v8 bs24_lr5e-05",
+        "precision_score": 0.8235294117647058,
+        "recall_score": 0.11764705882352941,
+        "f1_score": 0.20588235294117646
+    },
+    {
+        "name": "Dropout v8 bs32_lr0.01",
+        "precision_score": 0.5,
+        "recall_score": 0.01680672268907563,
+        "f1_score": 0.03252032520325203
+    },
+    {
+        "name": "Dropout v8 bs32_lr0.001",
+        "precision_score": 0.9647058823529412,
+        "recall_score": 0.6890756302521008,
+        "f1_score": 0.803921568627451
+    },
+    {
+        "name": "Dropout v8 bs32_lr0.0005",
+        "precision_score": 0.25,
+        "recall_score": 0.008403361344537815,
+        "f1_score": 0.016260162601626015
+    },
+    {
+        "name": "Dropout v8 bs32_lr0.0001",
+        "precision_score": 0.9302325581395349,
+        "recall_score": 0.33613445378151263,
+        "f1_score": 0.49382716049382724
+    },
+    {
+        "name": "Dropout v8 bs32_lr5e-05",
+        "precision_score": 0.9746835443037974,
+        "recall_score": 0.6470588235294118,
+        "f1_score": 0.7777777777777778
+    },
+    {
+        "name": "Dropout v8 bs64_lr0.01",
+        "precision_score": 0.4,
+        "recall_score": 0.01680672268907563,
+        "f1_score": 0.03225806451612903
+    },
+    {
+        "name": "Dropout v8 bs64_lr0.001",
+        "precision_score": 0.5714285714285714,
+        "recall_score": 0.03361344537815126,
+        "f1_score": 0.06349206349206349
+    },
+    {
+        "name": "Dropout v8 bs64_lr0.0005",
+        "precision_score": 0.9833333333333333,
+        "recall_score": 0.9915966386554622,
+        "f1_score": 0.9874476987447698
+    },
+    {
+        "name": "Dropout v8 bs64_lr0.0001",
+        "precision_score": 0.9814814814814815,
+        "recall_score": 0.8907563025210085,
+        "f1_score": 0.933920704845815
+    },
+    {
+        "name": "Dropout v8 bs64_lr5e-05",
+        "precision_score": 0.9831932773109243,
+        "recall_score": 0.9831932773109243,
+        "f1_score": 0.9831932773109243
+    },
+    {
+        "name": "Dropout v8 bs128_lr0.01",
+        "precision_score": 0.25,
+        "recall_score": 0.008403361344537815,
+        "f1_score": 0.016260162601626015
+    },
+    {
+        "name": "Dropout v8 bs128_lr0.001",
+        "precision_score": 0.3333333333333333,
+        "recall_score": 0.008403361344537815,
+        "f1_score": 0.016393442622950817
+    },
+    {
+        "name": "Dropout v8 bs128_lr0.0005",
+        "precision_score": 0.875,
+        "recall_score": 0.17647058823529413,
+        "f1_score": 0.2937062937062937
+    },
+    {
+        "name": "Dropout v8 bs128_lr0.0001",
+        "precision_score": 0.9916666666666667,
+        "recall_score": 1.0,
+        "f1_score": 0.99581589958159
+    },
+    {
+        "name": "Dropout v8 bs128_lr5e-05",
+        "precision_score": 0.9916666666666667,
+        "recall_score": 1.0,
+        "f1_score": 0.99581589958159
+    }
+]

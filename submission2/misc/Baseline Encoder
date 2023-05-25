@@ -1,0 +1,66 @@
+digraph {
+	graph [size="12,12"]
+	node [align=left fontname=monospace fontsize=10 height=0.2 ranksep=0.1 shape=box style=filled]
+	6060585824 [label="
+ (1, 1, 28, 28)" fillcolor=darkolivegreen1]
+	6118007856 [label=ReluBackward0]
+	6118007472 -> 6118007856
+	6118007472 [label=ConvolutionBackward0]
+	6118009488 -> 6118007472
+	6118009488 [label=ReluBackward0]
+	6118010592 -> 6118009488
+	6118010592 [label=ConvolutionBackward0]
+	6118008384 -> 6118010592
+	6118008384 [label=MaxPool2DWithIndicesBackward0]
+	6118007040 -> 6118008384
+	6118007040 [label=ReluBackward0]
+	6117990112 -> 6118007040
+	6117990112 [label=ConvolutionBackward0]
+	6117989776 -> 6117990112
+	6117989776 [label=MaxPool2DWithIndicesBackward0]
+	6117990160 -> 6117989776
+	6117990160 [label=ReluBackward0]
+	6117990256 -> 6117990160
+	6117990256 [label=ConvolutionBackward0]
+	6117986704 -> 6117990256
+	6104315680 [label="encoder.0.weight
+ (16, 1, 3, 3)" fillcolor=lightblue]
+	6104315680 -> 6117986704
+	6117986704 [label=AccumulateGrad]
+	6117990304 -> 6117990256
+	6060604448 [label="encoder.0.bias
+ (16)" fillcolor=lightblue]
+	6060604448 -> 6117990304
+	6117990304 [label=AccumulateGrad]
+	6117990064 -> 6117990112
+	6060604688 [label="encoder.3.weight
+ (8, 16, 3, 3)" fillcolor=lightblue]
+	6060604688 -> 6117990064
+	6117990064 [label=AccumulateGrad]
+	6117989872 -> 6117990112
+	6060604848 [label="encoder.3.bias
+ (8)" fillcolor=lightblue]
+	6060604848 -> 6117989872
+	6117989872 [label=AccumulateGrad]
+	6118007376 -> 6118010592
+	6111212464 [label="decoder.0.weight
+ (8, 16, 3, 3)" fillcolor=lightblue]
+	6111212464 -> 6118007376
+	6118007376 [label=AccumulateGrad]
+	6118010448 -> 6118010592
+	6108736384 [label="decoder.0.bias
+ (16)" fillcolor=lightblue]
+	6108736384 -> 6118010448
+	6118010448 [label=AccumulateGrad]
+	6118008864 -> 6118007472
+	6115776208 [label="decoder.2.weight
+ (16, 1, 3, 3)" fillcolor=lightblue]
+	6115776208 -> 6118008864
+	6118008864 [label=AccumulateGrad]
+	6118009632 -> 6118007472
+	6060581328 [label="decoder.2.bias
+ (1)" fillcolor=lightblue]
+	6060581328 -> 6118009632
+	6118009632 [label=AccumulateGrad]
+	6118007856 -> 6060585824
+}

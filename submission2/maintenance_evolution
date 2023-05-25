@@ -1,9 +1,0 @@
-digraph {
-	A [label="Reactive maintenance"]
-	B [label="Preventative maintenance"]
-	C [label="Rule-based Predictive maintenance"]
-	D [label="Machine learning-based Predictive maintenance"]
-	A -> B
-	B -> C
-	C -> D
-}
