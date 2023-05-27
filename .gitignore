@@ -159,6 +159,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-submission2/screw_data/
-submission2/transformed_images/
-submission2/transformed_images
+src/screw_data/
+src/transformed_images/
+src/transformed_images
