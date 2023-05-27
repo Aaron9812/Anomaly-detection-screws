@@ -40,8 +40,7 @@ As for our architectural tweaks, even though they weren't the most substantial c
 
 Through the course of this study, we have explored the process of developing and refining autoencoder models for the task of screw anomaly detection. This challenging yet exciting journey has not only presented us with a deeper understanding of autoencoders but also unveiled the potential of these machine learning models in effectively addressing real-world problems, especially in scenarios where data is limited.
 
-Our key takeaways from this study are twofold. Firstly, we've observed that the image size significantly influences the performance of autoencoder models.```markdown
-Larger images inherently carry more detailed information, providing our model with a rich and nuanced understanding of the patterns to learn from. This finding has sparked an interest in further exploration and experimenting with larger image sizes, which could be a valuable area for future research, provided that computational resources are not a limiting factor.
+Our key takeaways from this study are twofold. Firstly, we've observed that the image size significantly influences the performance of autoencoder models. Larger images inherently carry more detailed information, providing our model with a rich and nuanced understanding of the patterns to learn from. This finding has sparked an interest in further exploration and experimenting with larger image sizes, which could be a valuable area for future research, provided that computational resources are not a limiting factor.
 
 Secondly, our experiments highlighted the relevance of continual architectural improvements and adjustments in enhancing model performance. Although these adjustments didn't dominate the performance improvement as much as image size did, they were instrumental in tuning the model to its highest performance and further underline the necessity for architectural experimentation in model development.
 
